@@ -1,0 +1,9 @@
+.statistics {
+    padding: 20px;
+}
+
+.chart-container {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
