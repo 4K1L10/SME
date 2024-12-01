@@ -1,0 +1,38 @@
+.loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .center-box {
+    background-color: white;
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Ancho máximo */
+    width: 90%; /* Ajuste dinámico para pantallas más pequeñas */
+    text-align: center; /* Opcional: Centrar texto */
+  }  
+
+  .white-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; /* O cualquier otro tamaño que desees */
+  }
+  
+  .white-box h1,
+  .white-box h2 {
+    text-align: center;
+  }

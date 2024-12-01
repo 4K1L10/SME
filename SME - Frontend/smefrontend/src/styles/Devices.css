@@ -1,0 +1,62 @@
+.device-management-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .device-management-container h2 {
+    text-align: center;
+  }
+  
+  .device-management-container form,
+  .device-management-container table {
+    width: 100%;
+  }
+  
+  .device-management-container table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .device-management-container th,
+  .device-management-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .device-management-container th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+  }
+  
+  .device-management-container .actions button {
+    margin-right: 5px;
+  }
+  
+  .back-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+  
+.white-box {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%; /* O cualquier otro tamaño que desees */
+}
+
+.white-box h1,
+.white-box h2 {
+  text-align: center;
+}

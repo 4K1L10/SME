@@ -1,0 +1,15 @@
+html, #root {
+  height: 100%;
+  margin: 0;
+  
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(to right, #f8f7f7, #ffffff, #efefef); /* Fondo colorido en toda la pantalla */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+}

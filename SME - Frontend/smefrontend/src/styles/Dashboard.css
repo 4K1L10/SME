@@ -1,0 +1,21 @@
+.dashboard {
+    display: flex;
+}
+
+.main-content {
+    flex: 1;
+    background-color: #f9f9f9;
+}
+.white-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; /* O cualquier otro tamaño que desees */
+  }
+  
+  .white-box h1,
+  .white-box h2 {
+    text-align: center;
+  }

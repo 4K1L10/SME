@@ -1,0 +1,49 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tbody td {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: rgb(0, 0, 0); /* Cambia el color de los números a blanco */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .white-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; /* O cualquier otro tamaño que desees */
+  }
+  
+  .white-box h1,
+  .white-box h2 {
+    text-align: center;
+  }
